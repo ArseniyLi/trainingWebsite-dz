@@ -1,0 +1,164 @@
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*--------------------*/
+
+
+
+
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin: 30px 0 0 200px;
+  background-color: #E8E8E8;
+}
+
+ul li {
+  line-height: 2;
+  padding-left: 28px;
+  background: url(/img/check\ icon.svg) left 10px no-repeat;
+}
+
+li:first-child {
+  text-decoration: line-through;
+}
+
+li:hover {
+  color: red;
+  background: url(/img/check\ icon2.svg) left 10px no-repeat;
+
+}
+
+
+li:nth-child(4) {
+  margin-bottom: 40px;
+  text-transform: uppercase
+}
+
+button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+
+  background: url(/img/Shape\ 2.svg) 150px 15px no-repeat;
+  background-color: #80B7B3;
+  margin: 50px 0 100px 50px;
+  width: 199px;
+  height: 44px;
+  border-radius: 20px;
+
+
+}
+
+button a {
+  color: white;
+}
+
+button:hover {
+  background-color: #3A5856;
+}
+
+button:active {
+  background-color: #818181;
+}
+
+p:nth-child(1) {
+  padding: 0 0 40px 0;
+}
+
+p:nth-child(1):first-line {
+  color: red;
+}
+
+.pp:nth-child(2):first-letter {
+  color: red;
+  font-size: 24px;
+}
