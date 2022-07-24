@@ -89,3 +89,62 @@ h6 {
 }
 
 /*--------------------*/
+body {
+  width: 1440px;
+  height: 100%;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 24px;
+  color: #273D46;
+  line-height: 2;
+
+  background: url(/img/Ellipse\ 1\ copy.png) 0 0 no-repeat;
+  background-color: #E8E8E8;
+}
+
+.main {
+  margin: 50px 0 0 250px;
+  width: 800px;
+  
+
+
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #748287;
+  text-align: center;
+}
+
+p:nth-child(2){
+  text-align: center;
+}
+
+p{
+  margin: 0 0 40px 0;
+
+}
+
+img {
+  border: 5px solid white;
+  margin: 0 0 50px 0;
+  box-shadow: 0 0 20px 0 black;
+}
+ul{
+  margin-bottom: 50px;
+}
+ul li{
+  background: url(/img/check\ icon.svg) left 15px no-repeat;
+  padding: 0 0 0 30px;
+  
+}
+li:hover{
+  color: #80B7B3;
+}
+button{
+  width: 199px;
+  height: 44px;
+  margin: 10px 0 100px 30px;
+  border-radius: 20px;
+  background: #80B7B3 url(/img/Shape\ 2.svg) 150px 15px no-repeat;
+}
