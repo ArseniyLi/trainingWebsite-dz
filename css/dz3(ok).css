@@ -148,3 +148,12 @@ button{
   border-radius: 20px;
   background: #80B7B3 url(/img/Shape\ 2.svg) 150px 15px no-repeat;
 }
+button:hover{
+  background-color: aquamarine;
+}
+a:visited{
+  color: white;
+}
+button:active{
+  background-color: #748287;
+}
