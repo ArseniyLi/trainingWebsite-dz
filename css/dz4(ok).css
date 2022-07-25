@@ -75,7 +75,7 @@ h1, h2, h3, h4, h5, h6 {
 body {
   background: #E8E8E8 url(/img/Ellipse\ 1\ copy.png) 0 0 no-repeat;
   width: 1366px;
-  height: 100% 22;
+  height: 100%;
   font-family: "Times New Roman", Times, serif;
   line-height: 2;
   margin: 20px 0 0 0;
