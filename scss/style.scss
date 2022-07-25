@@ -1,3 +1,98 @@
-body{
-  
+@import "nullstyle.scss";
+
+
+body {
+  background: #E8E8E8 url(/img/Ellipse\ 1\ copy.png) 0 0 no-repeat;
+  width: 1366px;
+  height: 100%;
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 2;
+  margin: 20px 0 0 0;
+  color: #273D46;
+}
+
+.main {
+
+  margin: 0 auto;
+  width: 831px;
+
+  h1 {
+    font-size: 14px;
+    color: #748287;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+
+  p {
+    font-size: 36px;
+    color: #273D46;
+    text-align: center;
+    margin: 0 0 30px 0;
+  }
+
+  .image {
+    border: 5px solid white;
+    box-shadow: 0 0 20px 9px black;
+
+  }
+
+  .textp {
+
+    p {
+      margin: 30px 0 30px 30px;
+      font-size: 24px;
+      text-align: left;
+    }
+  }
+
+  .list {
+    font-size: 24px;
+    margin: 0 0 0 30px;
+
+    .item {
+      background: url(/img/check\ icon.svg) left 15px no-repeat;
+      padding: 0 0 0 28px;
+
+      &:first-child {
+        text-shadow: 0 1px 3px black;
+      }
+
+      &:last-of-type {
+        text-decoration: line-through;
+      }
+
+      &:hover {
+        color: red;
+        background: url(/img/check\ icon2.svg) left 15px no-repeat;
+
+      }
+
+
+    }
+
+  }
+
+  .but {
+    width: 199px;
+    height: 44px;
+    background: #80B7B3 url(/img/Shape\ 2.svg) 150px 15px no-repeat;
+    color: white;
+    margin: 30px 0 30px 280px;
+    border-radius: 20px;
+
+    &:hover {
+      background-color: #273D46;
+
+    }
+
+    &:active {
+      background-color: #748287;
+    }
+
+  }
+
+
+
+
+
 }

@@ -1,0 +1,141 @@
+@charset "UTF-8";
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*--------------------*/
+body {
+  background: #E8E8E8 url(/img/Ellipse\ 1\ copy.png) 0 0 no-repeat;
+  width: 1366px;
+  height: 100%;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 2;
+  margin: 20px 0 0 0;
+  color: #273D46;
+}
+
+.main {
+  margin: 0 auto;
+  width: 831px;
+}
+.main h1 {
+  font-size: 14px;
+  color: #748287;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.main p {
+  font-size: 36px;
+  color: #273D46;
+  text-align: center;
+  margin: 0 0 30px 0;
+}
+.main .image {
+  border: 5px solid white;
+  box-shadow: 0 0 20px 9px black;
+}
+.main .textp p {
+  margin: 30px 0 30px 30px;
+  font-size: 24px;
+  text-align: left;
+}
+.main .list {
+  font-size: 24px;
+  margin: 0 0 0 30px;
+}
+.main .list .item {
+  background: url(/img/check\ icon.svg) left 15px no-repeat;
+  padding: 0 0 0 28px;
+}
+.main .list .item:first-child {
+  text-shadow: 0 1px 3px black;
+}
+.main .list .item:last-of-type {
+  text-decoration: line-through;
+}
+.main .list .item:hover {
+  color: red;
+  background: url(/img/check\ icon2.svg) left 15px no-repeat;
+}
+.main .but {
+  width: 199px;
+  height: 44px;
+  background: #80B7B3 url(/img/Shape\ 2.svg) 150px 15px no-repeat;
+  color: white;
+  margin: 30px 0 30px 280px;
+  border-radius: 20px;
+}
+.main .but:hover {
+  background-color: #273D46;
+}
+.main .but:active {
+  background-color: #748287;
+}
