@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 /*Обнуление*/
 * {
   padding: 0;
@@ -7,31 +6,23 @@
   border: 0;
 }
 
-*,
-*:before,
-*:after {
+*, *:before, *:after {
   box-sizing: border-box;
 }
 
-:focus,
-:active {
+:focus, :active {
   outline: none;
 }
 
-a:focus,
-a:active {
+a:focus, a:active {
   outline: none;
 }
 
-nav,
-footer,
-header,
-aside {
+nav, footer, header, aside {
   display: block;
 }
 
-html,
-body {
+html, body {
   height: 100%;
   width: 100%;
   font-size: 100%;
@@ -42,9 +33,7 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 
-input,
-button,
-textarea {
+input, button, textarea {
   font-family: inherit;
 }
 
@@ -61,8 +50,7 @@ button::-moz-focus-inner {
   border: 0;
 }
 
-a,
-a:visited {
+a, a:visited {
   text-decoration: none;
 }
 
@@ -78,12 +66,7 @@ img {
   vertical-align: top;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-size: inherit;
   font-weight: inherit;
 }
@@ -157,17 +140,15 @@ body {
   font-size: 16px;
   color: #445161;
 }
-
 .content__subtitle p {
   margin: 0 0 20px 0;
 }
-
 .content__subtitle p:last-child {
   margin: 0;
 }
 
 .row_content {
-  margin: 30px 0 30px 0;
+  margin: 30px 0 0 0;
   background-color: #F5F5F5;
 }
 
@@ -208,78 +189,6 @@ body {
 .row__column_subtitle {
   font-size: 16px;
   color: #445161;
-}
-
-.block {}
-
-.block__title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.block__column {
-  display: flex;
-  justify-content: center;
-
-}
-
-.block__column_card {
-  border: 1px solid #445162;
-  border-radius: 5px;
-  background-color: #445162;
-  width: 300px;
-  margin: 0 30px 30px 0;
-  display: flex;
-  flex-direction: column;
-
-  align-items: center;
-}
-.block__column_card:nth-child(3)
-{
-  margin-right: 0;
-}
-
-.block__column_title {}
-
-.title {
-  color: white;
-  font-size: 24px;
-  margin: 5px 0 5px 0;
-}
-
-.block__column_subtitle {
-width: 100%;
-text-align: center;
-  background-color: white;
-  
-}
-
-.subtitle {
-  padding: 5px 0 5px 0;
-  font-size: 40px;
-}
-
-.block__column_text {}
-
-.text {
-  line-height: 1.5;
-  color: white;
-  font-size: 14px;
-  padding: 5px 5px 5px 5px;
-}
-
-.block__column_botton {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: white;
-  border-radius: 5px;
-  height: 40px;
-  width: 260px;
-  font-size: 18px;
-  margin: 0 0 10px 0;
-
 }
 
 .footer {
